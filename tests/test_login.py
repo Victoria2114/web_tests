@@ -7,5 +7,5 @@ def test_login(browser):
 
     page.login("tomsmith", "SuperSecretPassword!")
     
-    assert "cat" in browser.current_url
+    assert "secure" in browser.current_url
   
